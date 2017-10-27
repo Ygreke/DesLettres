@@ -1,0 +1,86 @@
+#idh1 {
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}
+#border {
+    opacity: 1;
+    background-color: rgba(132, 132, 132, 0.52);
+    border-radius: 10px;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+.containerbut {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.lettre {
+    border: 1px solid black;
+    text-align: center;
+    flex: 1 1 0;
+    background-color: #ffe26e;
+}
+.lettre1 {
+    order: 1;
+
+}
+.lettre2 {
+    order: 2;
+}
+.lettre3 {
+    order: 3;
+}
+.lettre4 {
+    order: 4;
+}
+.lettre5 {
+    order: 5;
+}
+.lettre6 {
+    order: 6;
+}
+.lettre7 {
+    order: 7;
+}
+.lettre8 {
+    order: 8;
+}
+.lettre9 {
+    order: 9;
+}
+.butvoyelle {
+    /*margin-left: 50px;
+    margin-right: 50px;*/
+    width:85px;
+    height:85px;
+    background:#fafafa;
+    box-shadow:2px 2px 8px #aaa;
+    font:bold 13px Arial;
+    border-radius:50%;
+    color:#555;
+}
+.reload {
+    width:85px;
+    height:85px;
+    background:#fafafa;
+    box-shadow:2px 2px 8px #aaa;
+    font:bold 13px Arial;
+    border-radius:50%;
+    color:#555;
+}
+.butconsonne {
+    width:85px;
+    height:85px;
+    background:#fafafa;
+    box-shadow:2px 2px 8px #aaa;
+    font:bold 13px Arial;
+    border-radius:50%;
+    color:#555;
+}
+
