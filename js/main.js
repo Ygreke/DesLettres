@@ -1,5 +1,7 @@
 var nbconsonne=1;
+var numlettre=1;
 
+/*FONCTION CONSONNE*/
 (function () {
     var consonne = function () {
         var tabconsonne = ['B', 'C', 'D', 'F', 'G','H','J','K','L','M','N','P','Q','R','S','T','V','W','X','Z'];
@@ -33,7 +35,7 @@ var nbconsonne=1;
 
 
 
-
+/*FONCTION VOYELLE*/
 (function () {
     var voyelle = function () {
         var tabvoyelle = ['A', 'E', 'I', 'O', 'U','Y'];
@@ -65,9 +67,7 @@ var nbconsonne=1;
 })();
 
 
-
-
-
+/*Bouton reset*/
 (function () {
     $(".reload").click(function () {
         window.location.reload();
@@ -76,8 +76,10 @@ var nbconsonne=1;
 
 
 
-(function () {
-    $("#1").click(function () {
-        window.location.reload();
-    })
+/*COMPOSER LE MOT*/
+(function (){
+    $(".lettre").click(function () {
+        $("#l"+numlettre).prop("disabled","disabled").show().html(this.textContent);
+        numlettre++;
+    });
 })();

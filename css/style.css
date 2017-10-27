@@ -1,7 +1,14 @@
+/*titre*/
 #idh1 {
     text-align: center;
     font-family: 'Permanent Marker', cursive;
 }
+#idh4{
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}
+
+/*toute la page*/
 #border {
     opacity: 1;
     background-color: rgba(132, 132, 132, 0.52);
@@ -9,23 +16,67 @@
     justify-content: space-around;
     padding-bottom: 30px;
 }
+
+/*tous les bouttons*/
 .containerbut {
     display: flex;
     justify-content: center;
 }
 
+/*bouttons 1 par 1*/
+.butvoyelle {
+    width:85px;
+    height:85px;
+    background:#fafafa;
+    box-shadow:2px 2px 8px #aaa;
+    font:bold 13px Arial;
+    border-radius:50%;
+    color:#555;
+}
+.reload {
+    width:85px;
+    height:85px;
+    background:#fafafa;
+    box-shadow:2px 2px 8px #aaa;
+    font:bold 13px Arial;
+    border-radius:50%;
+    color:#555;
+}
+.butconsonne {
+    width:85px;
+    height:85px;
+    background:#fafafa;
+    box-shadow:2px 2px 8px #aaa;
+    font:bold 13px Arial;
+    border-radius:50%;
+    color:#555;
+}
+
+/*toute le container des lettres pendant aleatoire*/
 .container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
+/*toute le container des lettres après choix*/
+.containerchoix {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 235px;
+    margin-right: 235px;
+}
+
+/*toute les lettres*/
 .lettre {
     border: 1px solid black;
     text-align: center;
     flex: 1 1 0;
     background-color: #ffe26e;
 }
+
+/*lettre 1 par 1*/
 .lettre1 {
     order: 1;
 
@@ -54,33 +105,5 @@
 .lettre9 {
     order: 9;
 }
-.butvoyelle {
-    /*margin-left: 50px;
-    margin-right: 50px;*/
-    width:85px;
-    height:85px;
-    background:#fafafa;
-    box-shadow:2px 2px 8px #aaa;
-    font:bold 13px Arial;
-    border-radius:50%;
-    color:#555;
-}
-.reload {
-    width:85px;
-    height:85px;
-    background:#fafafa;
-    box-shadow:2px 2px 8px #aaa;
-    font:bold 13px Arial;
-    border-radius:50%;
-    color:#555;
-}
-.butconsonne {
-    width:85px;
-    height:85px;
-    background:#fafafa;
-    box-shadow:2px 2px 8px #aaa;
-    font:bold 13px Arial;
-    border-radius:50%;
-    color:#555;
-}
+
 
